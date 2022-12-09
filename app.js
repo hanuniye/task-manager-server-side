@@ -1,7 +1,7 @@
+require("dotenv").config();
 const express = require("express");
 const tasksRouter = require("./routes/tasks");
 const connectDB = require("./db/connect");
-require("dotenv").config();
 const notFound = require("./middleware/not-found")
 
 const app = express();
